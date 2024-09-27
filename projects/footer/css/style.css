@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: 'Exo 2', sans-serif;
+    height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.main {
+	flex: 1 0 auto;
+}
+.footer{
+    flex: 0 0 auto;
+    background-color: #05A88D;
+}
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05A88D;
+    padding: 20px 40px;
+    align-items: flex-end;
+
+}
+
+.footer__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color:  #F1E67D;
+    text-decoration: none;
+    margin: 60px 0;
+}
+.text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14.4px;
+    color:  #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16.8px;
+    color:  #FFFFFF;
+    text-decoration: none;
+}
+
+.phone{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 128.8px;
+    color:  #F1E67D;
+    text-decoration: none;
+}
+
+.address{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14.4px;
+    color:  #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05A88D;
+    padding: 20px 40px;
+    align-items: flex-end;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14.4px;
+    color:  #FFFFFF;
+    text-decoration: none;
+}
+
+.line{
+    width: 1360px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: auto;
+}

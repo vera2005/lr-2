@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    height: 100px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.header{
+    width: 100%;
+    box-sizing: border-box;
+}
+.menu__ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu__link{
+    margin: 0 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19.5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.menu__link:hover{
+    color:#05a88d;
+}
+
+.menu__logo{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #05a88d;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__signup{
+    padding: 10px 40px;
+    margin: 0 20px;
+    text-decoration: none;
+    border: #05a88d solid 1px;
+    color: #05a88d;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+.menu__login{
+    padding: 0 80px;
+    text-decoration: none;
+    color: #05a88d;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.menu__signup:hover{
+    background-color: #a6dbc9;
+    border: #174f45;
+    color: #174f45;
+}
+
+.menu__login:hover{
+    color: #174f45;
+}
+
+.menu__logo:hover{
+    color: #174f45;
+}
